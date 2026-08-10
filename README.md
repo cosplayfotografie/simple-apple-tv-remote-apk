@@ -55,4 +55,9 @@ The app uses a hybrid architecture for maximum performance and compatibility:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-"# simple-apple-tv-remote-apk" 
+
+## KNOWN BUGS
+
+- A Default Flutter 90MB “fat APK.” (it contains the entire code for all existing mobile processor types (i.e., ARM32, ARM64, and x86 for emulators) at the same time.)
+- The power-off button doesn't seem to work reliably
+- In trackpad mode, you can't reliably swipe up and down
